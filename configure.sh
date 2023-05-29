@@ -28,6 +28,7 @@ if [ ! -d "libpoly" ]; then
     make -j20
     make install
     cd ../..
+    cp -r include/poly .
     cp libpoly/build/src/libpoly.a .
     cp libpoly/build/src/libpolyxx.a .
     cp libpoly/build/src/libpicpoly.a .
@@ -40,6 +41,7 @@ else
     make -j20
     make install
     cd ../..
+    cp -r include/poly .
     cp libpoly/build/src/libpoly.a .
     cp libpoly/build/src/libpolyxx.a .
     cp libpoly/build/src/libpicpoly.a .
