@@ -1,5 +1,7 @@
 # build sat solvers
 
+mkdir ./solvers/include
+
 cd ./solvers/include
 if [ ! -d "cadical" ]; then
     git clone https://github.com/arminbiere/cadical.git
