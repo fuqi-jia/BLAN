@@ -122,8 +122,8 @@ namespace ismt
             std::cout<<"\t-K:16 (K of Clip, default 16)"<<std::endl;
             std::cout<<"\t-Gamma:0.5 (Gamma of Vote, default 0.5)"<<std::endl;
             std::cout<<"\t-DG:true (Distinct Graph, default true)"<<std::endl;
-            std::cout<<"\t-CM:true (Coefficient Matching, default true)"<<CM<<std::endl;
-            std::cout<<"\t-MaxBW:128 (Maximum Bit-Width, default 128)"<<MaxBW<<std::endl;
+            std::cout<<"\t-CM:true (Coefficient Matching, default true)"<<std::endl;
+            std::cout<<"\t-MaxBW:128 (Maximum Bit-Width, default 128)"<<std::endl;
         }
     };
 
