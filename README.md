@@ -35,5 +35,4 @@ BLAN 	test/1.smt2 (the smt-lib file to solve)
 	-DG:true (Distinct Graph, default true)
 	-CM:true (Coefficient Matching, default true)
 	-MaxBW:128 (Maximum Bit-Width, default 128)
-
 ```
