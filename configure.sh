@@ -26,6 +26,7 @@ if [ ! -d "libpoly" ]; then
     cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PWD/../../
     make clean
     make -j20
+    make install
     cd ../..
     cp libpoly/build/src/libpoly.a .
     cp libpoly/build/src/libpolyxx.a .
@@ -37,7 +38,7 @@ else
     cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PWD/../../
     make clean
     make -j20
-    # make install
+    make install
     cd ../..
     cp libpoly/build/src/libpoly.a .
     cp libpoly/build/src/libpolyxx.a .
