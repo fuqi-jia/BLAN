@@ -1,5 +1,5 @@
 # BLAN
-Bit-bLAsting solving Non-linear integer constraints.
+BLAN: Bit-bLAsting solving Non-linear integer constraints.
 
 ### Getting Started
 
