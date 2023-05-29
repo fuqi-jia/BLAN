@@ -23,7 +23,7 @@ One can check parameters supported by the tool via
 ```
 The output is 
 ```
-BLAN 1.smt2 (the smt-lib file to solve)
+BLAN 	test/1.smt2 (the smt-lib file to solve)
 	-T:1200 (time limit (s), default 1200)
 	-GA:true (Greedy Addtion, default true)
 	-MA:true (Multiplication Adaptation, default true)
