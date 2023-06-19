@@ -5,7 +5,7 @@ BLAN: Bit-bLAsting solving Non-linear integer constraints.
 
 ##### Setup
 Environment setup:
-- g++/clang (support C++11)
+- gcc/clang (support C++11)
 - cmake
 - make
 
