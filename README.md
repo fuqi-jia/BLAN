@@ -4,6 +4,10 @@ BLAN: Bit-bLAsting solving Non-linear integer constraints.
 ### Getting Started
 
 ##### Setup
+Environment setup:
+- g++/clang (support C++11)
+- cmake
+- make
 
 There are several dependence packages:
 - GMP (https://gmplib.org/)
