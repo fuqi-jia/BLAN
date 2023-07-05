@@ -40,3 +40,8 @@ BLAN 	test/1.smt2 (the smt-lib file to solve)
 	-CM:true (Coefficient Matching, default true)
 	-MaxBW:128 (Maximum Bit-Width, default 128)
 ```
+
+Paper DOI (upcoming)
+```
+https://doi.org/10.1145/3597926.3598034
+```
