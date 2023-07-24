@@ -41,7 +41,7 @@ BLAN 	test/1.smt2 (the smt-lib file to solve)
 	-MaxBW:128 (Maximum Bit-Width, default 128)
 ```
 
-Paper DOI (upcoming)
+Paper DOI
 ```
 https://doi.org/10.1145/3597926.3598034
 ```
