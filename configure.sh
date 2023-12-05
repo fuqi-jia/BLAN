@@ -23,7 +23,7 @@ fi
 if [ ! -d "libpoly" ]; then
     git clone https://github.com/SRI-CSL/libpoly.git
     cd libpoly/build
-    cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PWD/../../
+    cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="$PWD/../../"
     make clean
     make -j20
     make install
@@ -36,7 +36,7 @@ if [ ! -d "libpoly" ]; then
 else
     cd libpoly/build
     rm CMakeCache.txt 
-    cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$PWD/../../
+    cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="$PWD/../../"
     make clean
     make -j20
     make install
