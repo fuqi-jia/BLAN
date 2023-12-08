@@ -358,7 +358,7 @@ namespace ismt
         
         bool processed = false;
         boost::unordered_map<dagc*, unsigned> sub_set;
-        std::vector<std::set<dagc*>> sub_pool;
+        std::vector<boost::unordered_set<dagc*>> sub_pool;
         void process_sub(){
             for(unsigned i=0;i<variables.size();i++){
                 dagc* parent = getSubRoot(variables[i]);
