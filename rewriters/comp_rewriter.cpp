@@ -31,7 +31,7 @@ bool comp_rewriter::isNormForm(dagc* root){
     // next level +
     // next next level *
     // more than one variable
-    std::set<dagc*> varset;
+    boost::unordered_set<dagc*> varset;
     if(!root->iscomp()) return false;
     if(!root->children[0]->iscnum() && !root->children[1]->iscnum()) return false;
     if(root->children[0]->iscnum()){
