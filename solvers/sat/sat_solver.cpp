@@ -149,7 +149,7 @@ bool sat_solver::propagate(){
     return solver->solve();
 }
 
-void sat_solver::partial(std::map<int, int>& m){
+void sat_solver::partial(boost::unordered_map<int, int>& m){
     for(size_t i=1;i<iVars;i++){
         if(val(i)==(int)i){
             m.insert(std::pair<int, int>(i, i));

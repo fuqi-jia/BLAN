@@ -83,7 +83,7 @@ namespace ismt
         
         // cdcl(t) function
         bool        propagate();
-        void        partial(std::map<int, int>& m);
+        void        partial(boost::unordered_map<int, int>& m);
         int         val(int lit);
 
         // get unsat assumptions

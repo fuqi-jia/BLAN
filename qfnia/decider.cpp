@@ -250,7 +250,7 @@ int Decider::get_candidate_bit(dagc* xvar, bool zero){
 }
 
 void Decider::vote(){
-    std::map<int, int> count;
+    boost::unordered_map<int, int> count;
     int max_cnt = 0;
     int max_bit = 0;
     for(unsigned i=0;i<current.size();i++){
