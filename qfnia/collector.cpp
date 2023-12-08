@@ -397,7 +397,7 @@ bool Collector::isSimpleComp(dagc* root){
 int Collector::isOrInterval(dagc* root){
     // (or (= s1 1) (= s1 4) (= s1 8)) => s1 [1,1],[4,4],[8,8]
     if(!root->isor()) return false;
-    std::set<dagc*> vars;
+    boost::unordered_set<dagc*> vars;
     for(unsigned i=0;i<root->children.size();i++){
         dagc* r = root->children[i];
         if(r->iscomp() && isSimpleComp(r)){
