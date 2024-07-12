@@ -19,7 +19,7 @@ Now, one can compile BLAN via:
 
 `./configure.sh`
 
-The command line will automatically build the tool (maybe `chmod +x configure.sh` first). It first build CADICAL, the backend SAT solver, and then LIBPOLY, a library for manipulating polynomials, and finally build BLAN.
+The command line will automatically build the tool (maybe `chmod +x configure.sh` first). It first builds CADICAL, the backend SAT solver, and then LIBPOLY, a library for manipulating polynomials, and finally builds BLAN.
 
 One can check parameters supported by the tool via
 ```
