@@ -13,7 +13,7 @@ There are several dependence packages:
 - GMP (https://gmplib.org/)
 - BOOST (https://www.boost.org/)
 - LIBPOLY (https://github.com/SRI-CSL/libpoly)
-- CAIDICAL (https://github.com/arminbiere/cadical)
+- CADICAL (https://github.com/arminbiere/cadical)
 
 Now, one can compile BLAN via:
 
