@@ -1,0 +1,204 @@
+# compiled files
+*.o
+*.obj
+*.ko
+*.elf
+
+# linker output
+*.ilk
+*.map
+*.exp
+
+# executable files
+*.exe
+*.out
+*.app
+a.out
+
+# library files
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Qt related
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+*.prl
+
+# Qt Creator
+*.autosave
+
+# Qt unit tests
+target_wrapper.*
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# MinGW
+*.exe.manifest
+*.exe.intermediate.manifest
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Build directory
+build/
+Build/
+debug/
+Debug/
+release/
+Release/
+x64/
+x86/
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+
+# Dev-C++
+*.dev
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Conan
+conanfile.txt
+conaninfo.txt
+conanbuildinfo.cmake
+conanbuildinfo.txt
+
+# vcpkg
+vcpkg_installed/
+
+# Debug and analysis files
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# System generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compressed files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Test coverage
+coverage/
+*.gcov
+*.gcno
+*.gcda
+
+# Valgrind
+*.memcheck
+
+# Doxygen
+doc/
+docs/
+
+# include solvers
+solvers/include/
+
+# executable files
+BLAN
