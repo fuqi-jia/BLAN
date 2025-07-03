@@ -202,3 +202,11 @@ solvers/include/
 
 # executable files
 BLAN
+
+# Model counting temporary files
+temp_formula.cnf
+ganak_output.txt
+*.dnnf
+*.mc_output
+model_counter_test
+ganak_env.sh
